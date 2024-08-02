@@ -45,7 +45,7 @@
   <p>Este arquivo define a classe NumerosRomanos, que contém a lógica para converter números entre decimal e romano, bem como para realizar operações matemáticas.</p>
   <ul>
      <li><b>converterParaRomano:</b> Converte um número decimal para o formato romano.</li>
-     <li><b>converterParaInteiro::</b> Converte um número romano para o formato decimal.</li>
+     <li><b>converterParaInteiro:</b> Converte um número romano para o formato decimal.</li>
      <li><b>processarEntrada:</b> Verifica se a entrada é romana ou decimal e a converte adequadamente.</li>
      <li><b> adicionar, subtrair, multiplicar, dividir:</b> Realizam operações matemáticas entre dois números, independentemente do formato.</li>
   </ul>
