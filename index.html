@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/estilo.css">
+    <title>Conversor de Números Romanos</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="../assets/img/undraw_calculator_re_alsc.svg" alt="">
+        </div>
+        <div class="form">
+            <form id="romanForm" action="/processar" method="POST">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Conversor de Números Romanos</h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="number1">Número 1 (Decimal ou Romano)</label>
+                        <input id="number1" type="text" name="number1" placeholder="Digite um número" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number2">Número 2 (Decimal ou Romano)</label>
+                        <input id="number2" type="text" name="number2" placeholder="Digite outro número" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="operation">Operação</label>
+                        <select id="operation" name="operation" required>
+                            <option value="add">Somar</option>
+                            <option value="subtract">Subtrair</option>
+                            <option value="multiply">Multiplicar</option>
+                            <option value="divide">Dividir</option>
+                            <option value="convertToRoman">Converter para Romano</option>
+                            <option value="convertToInteger">Converter para Decimal</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button type="submit">Calcular</button>
+                </div>
+
+                <div class="result-box">
+                    <h2>Resultado:</h2>
+                    <p id="result">---</p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./assets/js/enviarDados.js"></script>
+</body>
+
+</html>
